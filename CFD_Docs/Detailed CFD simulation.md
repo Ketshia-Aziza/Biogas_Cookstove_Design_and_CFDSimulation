@@ -70,15 +70,25 @@ The CFD simulations were conducted in **two sequential stages**.
 The first stage focused on evaluating the mixing quality of biogas and air prior to ignition.
 
 **Model configuration:**
-- Pressure-based, steady-state solver  
-- Species transport model (non-reacting)  
-- Energy equation enabled  
-- Turbulence model: Realizable *k–ε*
+Table 1. Solver and physical models for cold-flow simulation
+| Parameter | Setting |
+|-----------|---------|
+| Solver type | Pressure-based |
+| Flow regime | Steady-state |
+| Energy equation | Enabled |
+| Species transport | Enabled (non-reacting) |
+| Turbulence model | Realizable *k–ε* |
+| Turbulence treatment | Standard wall functions |
 
 **Boundary conditions:**
-- Fuel inlet: Mass flow inlet (60% CH₄, 40% CO₂)  
-- Air inlet: Mass flow inlet (21% O₂, 79% N₂)  
-- Outlet: Pressure outlet  
+Table 2. Boundary conditions for cold-flow simulation
+| Boundary | Type | Specification |
+|----------|------|---------------|
+| Fuel inlet | Mass flow inlet | Biogas (60% CH₄, 40% CO₂) |
+| Air inlet | Mass flow inlet | Air (21% O₂, 79% N₂) |
+| Outlet | Pressure outlet | Atmospheric pressure |
+| Walls | No-slip | Adiabatic |
+
 
 The outputs of this simulation—specifically outlet velocity and species composition—were used as inlet conditions for the combustion simulation.
 
@@ -89,18 +99,28 @@ The outputs of this simulation—specifically outlet velocity and species compos
 The second stage simulated combustion in the simplified burner-head domain, assuming uniform flow distribution at the flame ports.
 
 **Model configuration:**
-- RANS formulation  
-- Turbulence model: Realizable *k–ε*  
-- Combustion model: Non-premixed combustion  
-- PDF approach for turbulent mixing  
-- Radiation model: P1  
-- Energy treatment: Non-adiabatic  
-- Rich flammability limit: 10% above stoichiometric mixture fraction  
+Table 3. Solver and physical models for combustion simulation
+| Parameter | Setting |
+|-----------|---------|
+| Solver formulation | RANS |
+| Solver type | Pressure-based |
+| Flow regime | Steady-state |
+| Turbulence model | Realizable *k–ε* |
+| Combustion model | Non-premixed combustion |
+| Turbulence–chemistry interaction | PDF approach |
+| Radiation model | P1 |
+| Energy treatment | Non-adiabatic |
+| Flammability limit | 10% above stoichiometric mixture fraction |
+  
 
 **Boundary conditions:**
-- Fuel inlet: Velocity inlet (from cold-flow results)  
-- Secondary air inlet: Pressure inlet (reverse flow prevented)  
-- Outlet: Pressure outlet  
+Table 4. Boundary conditions for combustion simulation  
+| Boundary | Type | Specification |
+|----------|------|---------------|
+| Fuel inlet | Velocity inlet | From cold-flow simulation results |
+| Secondary air inlet | Pressure inlet | Reverse flow prevented |
+| Outlet | Pressure outlet | Atmospheric pressure |
+| Walls | No-slip | Heat transfer enabled |
 
 ---
 
