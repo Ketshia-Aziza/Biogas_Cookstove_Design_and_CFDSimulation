@@ -17,7 +17,7 @@ This document complements the repository README by focusing exclusively on the *
 ## 2. Geometry Definition and Computational Domains
 
 The burner geometry was developed in **SolidWorks** based on design parameters obtained from analytical calculations implemented in MATLAB. These parameters include injector dimensions, mixing tube length, air port size, and burner head characteristics.
-![Figure 1: Three-dimensional CAD model of the biogas burner geometry.](/Image/cad_burner_geometry.png)
+![Figure 1: Three-dimensional CAD model of the biogas burner geometry.](/Image/CAD_Model.png)
 
 
 Two CFD computational domains were derived from the three-dimensional burner geometry:
