@@ -146,7 +146,7 @@ The combustion simulations reveal a stable and well-structured flame.
 - **Carbon dioxide (CO₂):** Concentrated production in the post-flame region indicates complete combustion.
 ![Figure 10: Carbon dioxide Contour.](/Image/CarbonDioxide_Contour.png)
 - **Carbon monoxide (CO):** Localized formation near the flame front with rapid downstream oxidation, suggesting efficient conversion to CO₂.
-![Figure 11: Carbon monoxide Contour.](/Image/CarbonMonoxide_Contour.png)
+![Figure 11: Carbon monoxide Contour.](/Image/CarbonMonoxide_contour.png)
 - **Methane (CH₄):** Rapid decrease in fuel concentration above the burner ports confirms effective mixing and oxidation.
 ![Figure 12: Methane Contour.](/Image/methane_Contour.png)
 
