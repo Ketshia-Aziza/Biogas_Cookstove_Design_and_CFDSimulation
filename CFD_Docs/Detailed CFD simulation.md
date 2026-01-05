@@ -47,7 +47,7 @@ Local mesh refinement was applied in:
 - Maximum skewness: 0.65  
 - Minimum orthogonal quality: 0.20  
 - No isolated cells detected  
-![Figure 4: Computational mesh of the burner domain highlighting refinement regions.](/Image/Mixing flow mesh.png)
+![Figure 4: Computational mesh of the burner domain highlighting refinement regions.](/Image/Mixing_flow_mesh.png)
 
 **Combustion Domain:**
 - Total number of cells: ~287,000  
@@ -67,7 +67,7 @@ The CFD simulations were conducted in **two sequential stages**.
 
 ### 4.1 Cold-Flow Mixing Simulation (Non-Reacting)
 
-The first stage focused on evaluating the mixing quality of biogas and air prior to ignition.
+The first stage focused on evaluating the mixing quality of biogas and air before ignition.
 
 **Model configuration:**
 Table 1. Solver and physical models for cold-flow simulation
