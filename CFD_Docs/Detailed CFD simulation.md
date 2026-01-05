@@ -23,7 +23,7 @@ The burner geometry was developed in **SolidWorks** based on design parameters o
 Two CFD computational domains were derived from the three-dimensional burner geometry:
 
 - **Mixing Flow Domain:** Used to analyze non-reacting air–fuel mixing inside the burner.
-  ![Figure 2: Three-dimensional CFD model render for mixing flow](Image/FluidDomain1.png)
+  ![Figure 2: Three-dimensional CFD model render for mixing flow](/Image/FluidDomain1.png)
 
 - **Combustion Domain:** A simplified domain focusing on the region above the burner head where combustion occurs.
 ![Figure 3: Three-dimensional CFD model render for combustion ](Image/Fluidomain2.png)
