@@ -17,7 +17,7 @@ This document complements the repository README by focusing exclusively on the *
 ## 2. Geometry Definition and Computational Domains
 
 The burner geometry was developed in **SolidWorks** based on design parameters obtained from analytical calculations implemented in MATLAB. These parameters include injector dimensions, mixing tube length, air port size, and burner head characteristics.
-![Figure 1: Three-dimensional CAD model of the biogas burner geometry.](figures/cad_burner_geometry.png)
+![Figure 1: Three-dimensional CAD model of the biogas burner geometry.](/Image/cad_burner_geometry.png)
 
 
 Two CFD computational domains were derived from the three-dimensional burner geometry:
@@ -26,7 +26,7 @@ Two CFD computational domains were derived from the three-dimensional burner geo
   ![Figure 2: Three-dimensional CFD model render for mixing flow](/Image/FluidDomain1.png)
 
 - **Combustion Domain:** A simplified domain focusing on the region above the burner head where combustion occurs.
-![Figure 3: Three-dimensional CFD model render for combustion ](Image/Fluidomain2.png)
+![Figure 3: Three-dimensional CFD model render for combustion ](/Image/Fluidomain2.png)
 
 This two-domain approach allows separation of cold-flow mixing analysis from reacting flow simulation.
 
@@ -47,14 +47,14 @@ Local mesh refinement was applied in:
 - Maximum skewness: 0.65  
 - Minimum orthogonal quality: 0.20  
 - No isolated cells detected  
-![Figure 4: Computational mesh of the burner domain highlighting refinement regions.](Image/Mixing flow mesh.png)
+![Figure 4: Computational mesh of the burner domain highlighting refinement regions.](/Image/Mixing flow mesh.png)
 
 **Combustion Domain:**
 - Total number of cells: ~287,000  
 - Maximum skewness: 0.52  
 - Minimum orthogonal quality: 0.29  
 - No isolated cells detected  
-![Figure 5: Computational mesh of the combustion domain highlighting refinement regions.](Image/Combustion_mesh_network.png)
+![Figure 5: Computational mesh of the combustion domain highlighting refinement regions.](/Image/Combustion_mesh_network.png)
 These values are within acceptable limits for RANS-based combustion simulations.
 
 ---
@@ -129,9 +129,9 @@ Table 4. Boundary conditions for combustion simulation
 ### 5.1 Mixing Flow Results
 
 Species contours for methane and oxygen indicate effective air–fuel mixing within the mixing tube. The velocity distribution at the burner exit is sufficiently uniform, suggesting favorable conditions for flame stabilization and combustion initiation.
-![Figure 6: Oxygen Contour.](Image/mixingflow_OxygenContour.png)
+![Figure 6: Oxygen Contour.](/Image/mixingflow_OxygenContour.png)
 
-![Figure 7: Methane Contour.](Image/mixingflow_methaneContour.png)
+![Figure 7: Methane Contour.](/Image/mixingflow_methaneContour.png)
 
 ---
 
@@ -140,15 +140,15 @@ Species contours for methane and oxygen indicate effective air–fuel mixing wit
 The combustion simulations reveal a stable and well-structured flame.
 
 - **Temperature field:** Maximum flame temperature reaches approximately **2063 K**, with combustion occurring primarily within the stoichiometric reaction zone.
-![Figure 8: Temperature Contour.](Image/Temperature_Contour.png)
+![Figure 8: Temperature Contour.](/Image/Temperature_Contour.png)
 - **Oxygen (O₂):** Depletion near the burner head confirms active combustion, followed by recovery downstream.
-![Figure 9: Oxygen Contour.](Image/O2_Contour.png)
+![Figure 9: Oxygen Contour.](/Image/O2_Contour.png)
 - **Carbon dioxide (CO₂):** Concentrated production in the post-flame region indicates complete combustion.
-![Figure 10: Carbon dioxide Contour.](Image/CO2_Contour.png)
+![Figure 10: Carbon dioxide Contour.](/Image/CO2_Contour.png)
 - **Carbon monoxide (CO):** Localized formation near the flame front with rapid downstream oxidation, suggesting efficient conversion to CO₂.
-![Figure 11: Carbon monoxide Contour.](Image/CO_Contour.png)
+![Figure 11: Carbon monoxide Contour.](/Image/CO_Contour.png)
 - **Methane (CH₄):** Rapid decrease in fuel concentration above the burner ports confirms effective mixing and oxidation.
-![Figure 12: Methane Contour.](Image/CH4_Contour.png)
+![Figure 12: Methane Contour.](/Image/CH4_Contour.png)
 
 Overall, the CFD results support the analytical burner design and validate the selected configuration.
 
