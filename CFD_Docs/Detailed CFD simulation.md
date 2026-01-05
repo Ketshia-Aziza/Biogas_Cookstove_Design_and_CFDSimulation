@@ -144,11 +144,11 @@ The combustion simulations reveal a stable and well-structured flame.
 - **Oxygen (O₂):** Depletion near the burner head confirms active combustion, followed by recovery downstream.
 ![Figure 9: Oxygen Contour.](/Image/O2_Contour.png)
 - **Carbon dioxide (CO₂):** Concentrated production in the post-flame region indicates complete combustion.
-![Figure 10: Carbon dioxide Contour.](/Image/CO2_Contour.png)
+![Figure 10: Carbon dioxide Contour.](/Image/CarbonDioxide_Contour.png)
 - **Carbon monoxide (CO):** Localized formation near the flame front with rapid downstream oxidation, suggesting efficient conversion to CO₂.
-![Figure 11: Carbon monoxide Contour.](/Image/CO_Contour.png)
+![Figure 11: Carbon monoxide Contour.](/Image/CarbonMonoxide_Contour.png)
 - **Methane (CH₄):** Rapid decrease in fuel concentration above the burner ports confirms effective mixing and oxidation.
-![Figure 12: Methane Contour.](/Image/CH4_Contour.png)
+![Figure 12: Methane Contour.](/Image/methane_Contour.png)
 
 Overall, the CFD results support the analytical burner design and validate the selected configuration.
 
