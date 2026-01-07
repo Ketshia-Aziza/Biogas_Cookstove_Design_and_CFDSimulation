@@ -64,8 +64,8 @@ The results showed a stable flame anchored near the burner ports:
 This repository demonstrates the integration of **Parametric Analytical Modeling** and **Advanced CFD Analysis**. It highlights a rigorous approach to engineering validation via literature benchmarking, a critical skill for high-level research in the energy transition.
 
 ## 📂 Repository Structure
-* `/MATLAB`: Analytical design scripts.
 * `/CAD`: STEP and STL files of the burner geometry.
-* `/Docs`: Detailed walkthrough of the simulation and validation methodology.
+* `/CFD_Docs`: Detailed walkthrough of the simulation and validation methodology.
 * `/Images`: Result contours (Temperature, CO, CO2, O2, CH4).
+* `/MATLAB`: Analytical design scripts.
 *For more information or collaboration inquiries, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/ketshia-ngalula-aziza-b5b00b122).*
